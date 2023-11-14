@@ -1,6 +1,6 @@
 import React from 'react';
 import './RegisterForm.css';
-import registerImage from '../../image/general/cart.jpg'; // Cambia la ruta a la imagen de registro
+import registerImage from '../../image/general/cart.jpg'; 
 
 function RegisterForm() {
   return (
