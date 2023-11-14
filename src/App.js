@@ -7,7 +7,7 @@ import Products from './Pages/Products/Products';
 import Cart from './Pages/Cart/Cart';
 import LoginForm from './Components/Login/LoginForm';
 import RegisterForm from './Components/Register/RegisterForm';
-/* import Page404 from './Pages/Page404'; */
+
 import './App.css';
 
 function App() {
@@ -53,7 +53,7 @@ function App() {
           <Route path="/cart" element={<Cart cartItems={cartItems} removeFromCart={removeFromCart} convertToPesos={convertToPesos} />} exact />
           <Route path="/login" element={<LoginForm />} exact />
           <Route path="/register" element={<RegisterForm />} exact />
-       {/*    <Route path="*" element={<Page404 />} exact />  */}
+
         </Routes>
       </div>
     </Router>
